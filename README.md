@@ -12,7 +12,8 @@ con el spec planteado**.
 
 1. Hacer fork, a su cuenta de GitHub, de cada repositorio de la tabla del final.
 2. Leer el spec en [`test-manager-library-3145555-docs`](https://github.com/code-sena/test-manager-library-3145555-docs).
-   Se entrega en dos versiones: `spec-python/` y `spec-.net/`.
+   Se entregan dos versiones de referencia (`spec-python/` y `spec-.net/`) y una versión adaptada al reto:
+   `spec-laravel-react/`.
 3. Desarrollar en los forks.
 
 ## El reto se desarrolla con React y PHP (Laravel)
@@ -44,13 +45,14 @@ No hay prórroga: suban avances parciales con commits pequeños durante la prueb
 |---|---|
 | [`spec-python/`](spec-python/) | El spec de Manager Library escrito para un backend Python |
 | [`spec-.net/`](spec-.net/) | El mismo sistema especificado para un backend .NET |
+| [`spec-laravel-react/`](spec-laravel-react/) | Especificación adaptada al stack real: frontend React y backend PHP con Laravel |
 
-Las dos versiones describen el **mismo producto** (las mismas historias, reglas de negocio y
-endpoints); cambian las decisiones de tecnología. Ninguna de las dos es el stack del reto.
+Las versiones describen el **mismo producto** (las mismas historias, reglas de negocio y endpoints).
+`spec-python/` y `spec-.net/` son referencias; `spec-laravel-react/` es la versión de trabajo para este reto.
 
 ## Cómo se lee el spec
 
-En cualquiera de las dos carpetas, en este orden:
+En `spec-laravel-react/` (o en una versión de referencia), en este orden:
 
 1. `constitution.md` — principios innegociables.
 2. `spec.md` — qué debe hacer el sistema: actores, historias, criterios de aceptación, reglas de negocio.
@@ -63,7 +65,7 @@ En cualquiera de las dos carpetas, en este orden:
 
 | Repositorio | Qué va ahí |
 |---|---|
-| [`test-manager-library-3145555-docs`](https://github.com/code-sena/test-manager-library-3145555-docs) | El spec: `spec-python/` y `spec-.net/` |
+| [`test-manager-library-3145555-docs`](https://github.com/code-sena/test-manager-library-3145555-docs) | El spec de referencia y el adaptado: `spec-python/`, `spec-.net/` y `spec-laravel-react/` |
 | [`test-manager-library-3145555-api`](https://github.com/code-sena/test-manager-library-3145555-api) | Backend en PHP (Laravel) |
 | [`test-manager-library-3145555-app`](https://github.com/code-sena/test-manager-library-3145555-app) | Frontend en React |
 | [`test-manager-library-3145555-page`](https://github.com/code-sena/test-manager-library-3145555-page) | Sitio público estático de presentación |
